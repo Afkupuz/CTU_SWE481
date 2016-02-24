@@ -1,6 +1,9 @@
 # CTU_SWE481
 Class group project for CTU capstone class
 
+Word Documents do not show on github, so I have added "group text doc" so that we can edit and share ideas.
+
+
 Assignment
 
 For the group project deliverable, create a software development plan (8–10 pages) incorporating the collective work from the individual project assignments submitted by the team members. The software development plan should contain the content listed below, and it should conform to the same requirements as the individual project weekly assignments.  
