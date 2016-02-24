@@ -1,0 +1,293 @@
+
+
+SWE481 – Software Engineering Capstone I
+Dianna Craig
+Nicolas Helgeson
+Sean Veal
+Matt Leifi
+Instructor: Professor Cheryl Frederick
+Unit 1 IP- Software Engineering Methodology
+Craig’s Bank Mobile Application Project
+February 21, 2016
+ 
+
+Table of Contents
+
+Document Version Control and Revision History	3
+Week 1 - Project Outline	4
+Issues to Consider During the Development of This Product	5
+Compatibility	5
+Security	5
+Scope Creep and Over-Budget	6
+Not Enough Human Resources	6
+Week 1 - Development Methodology	7
+Methodology Justification	9
+Week 2 – Requirements	11
+Week 2 - Design	12
+Week 3 - Development and Testing	13
+Week 4 - Project Schedule	14
+Week 5 - Risk Analysis	15
+References	16
+
+
+
+
+
+
+Document Version Control and Revision History
+
+Name	Date	Reason for Change	Version Number
+Nicolas Helgeson	02/20/2016	Collection and merger of each individual project for phase 1	1.0
+
+
+
+
+
+
+Project Outline
+	A banking company named Craig’s Bank has approached Tech-X solutions, a software development company, with a proposal to build a mobile banking application for their customers. They already have an online banking system, but recent research showed that they were falling behind in competition with other banks. The owner felt that to improve their banking business they want to offer their customers the ability to bank through a mobile application. Table 1 below defines the current features of the application:
+System Feature	Description
+Secure Password Login	The customer will be able to login to the mobile banking application using face recognition and/or swipe pattern.  
+View Account Balances	As with all other mobile banking applications, the customer will be able to view their bank account balances. 
+Transfer Funds	As with all other mobile banking applications, the customer can transfer funds from their checking to savings account and vice versa. 
+Remote Deposit	The system will have the ability to allow a customer to take a photo of checks on their smartphone and submit it for deposit to their account. 
+View Statements	The system will allow the customer to view statements from up to a year back. 
+Table 1 – Current Features for Mobile Banking Application
+(Source: American Banker, n.d.)
+Craig’s Bank would like to improve on some features and introduce new features that will be unique to their application.  
+System Feature	Description
+Login using face recognition and fingerprint scan	The customer will be able to login to the mobile banking application using face recognition software and or using their fingerprint. Additional security throughout the app will check these details periodically.
+Account Freeze/Unfreeze	Customers will be able to monitor their account activity and freeze their account in the event of un-approved activity
+Budget Tracking	This new feature will help customers organize their transactions. The software will provide metrics to help customers manage their budgets for these categories.
+Remote Deposit	The system will have the ability to allow a customer to take a photo of checks on their smartphone and submit it for deposit to their account. 
+Bill Zap	Using a system similar to remote deposit, customers will be able to photograph a bill and have the app determine the destination, amount, and time frame. The bill is paid with the push of a button and requires a security fingerprint scan
+Table 2 – New Features for Mobile Banking Application
+(Source: American Banker, n.d.)
+The above table 2 is the outline of the new requirements for the application. 
+	Tech-X Solutions has evaluated the requirements and needs of the mobile banking application and has accepted the project. This document will show all of the requirements, standards, schedule, cost and risks of the complete project from start to finish. It will serve as a record for the stakeholders of this project to refer to at any time. 
+Issues to Consider During the Development of This Product
+
+Compatibility
+
+	As the bank already has an existing system, it will have to be analyzed and evaluated to make sure it will be compatible with any new features or software that will be added for the mobile application to function correctly. This will be tested extensively during the software development process to make sure it functions on all levels. The importance of compatibility will be outstanding throughout the process. Due to the importance of clean compatibility of data tables and the security issues involved with sensitive data, this will be an extensively tested area.
+Security
+
+ Security is one of the most important aspects of the application. When it comes to the privacy and accuracy of customers accounts, all effort will be made to provide top notch security. There is inherent risk involved with providing mobile access to customers, but management has deemed the use of facial and fingerprint identification adequately nullifies the possibility of someone stealing or hacking a customers phone. Additional security testing will be performed on Craig Banks servers and software. 
+ Scope Creep and Over-Budget
+
+	Although the owner of Craig’s Bank will be very involved in the development process, it might be an issue if he finds more functionality he would like to have added to the application. In order to control this, Tech-X Solutions will have the owner sign a document at the beginning of the project that states only a certain amount of functionality can be added after the product is being built. This will prevent the project from going over-budget. 
+Lack of Human Resources
+	There is an unpredictable nature in the consistency of human labor. Severe illness, family emergencies, a lack of experience or loss of job due can severely impact the progress of the project. To reduce the risk for this project, Tech-X Solutions will be implementing extensive human resource planning and ensure that only the most experienced and cross-trained developers will work on the project. 
+
+
+
+
+Development Methodology
+The development team has decided that the Agile Scrum is the best methodology to use for this project. This methodology was chosen because it offers a framework that assists in complex projects while managing processes. The Scrum methodology also has the benefit of being flexible and the ability to adapt to changes at almost any stage. Scrum also places emphasis on constant collaboration and communication between stakeholders and the development team over contracts and documentation (Scrum Methodology, 2014). 
+            In this project, the Scrum methodology will be implemented in three major roles; Product owner, Scrum Master and the Scrum team. The role and responsibility of each are represented in table 2 below:
+Role	Responsibility
+Product Owner 	- Monitors the project’s progress to make sure it keeps check with the vision of the product.
+- They provide the Scrum master with the product backlog and will maintain it.
+- Communicates with the development team diligently to make sure product requirements are being met.
+- Provides the development team with the budget amount and keeps track of it.
+Scrum Master 	- They coach each development team to make sure everyone is on track with their tasks and sprint backlogs.
+- They provide the timeline schedule to inform each team member what they are responsible for.
+- Communicates directly with the Product Owner. He/she is the middle man between the Product Owner and the Scrum Team.
+Teams	- Each team is lead by a functional manager that communicates with the Scrum master
+-They must be cross-trained and experienced to be on the team. The teams contain combinations of software engineers, programmers, quality assurance experts and testers. 
+-They are responsible for testing their own coding.
+-They must do their best work and keep constant communication with the Scrum Master about any issues.
+Table 3 – Scrum Methodology Roles and Responsibilities
+(Source: Scrum Methodology, 2014)
+
+
+Diagram-1 Scrum Process 
+ 
+(cPrime, n.d.)
+
+
+Scrum Methodology Pros 
+
+Product Backlog – a log of the requirements for the system. This is made, maintained and given to the Scrum Master by the Product Owner.           
+Sprint – this is an iteration of work when a functionality is implemented by a team. It could be as short as 2 weeks up until 4 weeks.  
+Sprint Backlog – defines the work and tasks for each team in a sprint.
+Burndown Charts – this is a chart that shows the remaining work over time in the project. 
+Daily Scrum Meeting – this is a daily meeting given each morning before the work starts to touch base on what has been done, and what still needs to be done, and to discuss any issues that need to be covered. 
+Tangible products – At the end of each sprint is a tested and functional piece of the project that can be reviewed by the stakeholders.
+Scrum Methodology Cons
+	
+Project Creep – Adding and changing features is made easy, but comes with the risk that it happens too often. Scrum can handle changes well, but they still increase the time and resource requirements of the project.           
+Complexity – Sprints must be well planned out so that products are prepared in order. It is possible to start a sprint, only to discover that a vital piece is missing from another sprint.  
+Sprint Backlog – defines the work and tasks for each team in a sprint.
+Unclear Deadlines – The dynamic nature of the sprints and backlogs makes it difficult to determine clear deadlines and timeframes. 
+Bigger = More Complex – The bigger the teams, the more complex things get to organize and maintain. 
+Summary
+Scrum methodology requires tasks to be broken down into sprints (increments of 2 to 4 weeks to complete a set amount of tasks) to allow a deliverable after each sprint, so that the Product Owner (Craig’s Banking Owner) will be able to see and feel confident that the product is coming together according to their requirements. The development team will be divided into three teams and each team assigned different tasks through the Sprint Backlog. The Scrum Master will ensure these tasks are completed, and stay within budget, by monitoring the project with burn charts, a Work Breakdown Schedule (WBS), daily Scrum meetings (15 minute morning meetings) and viewing test results.
+Methodology Justification
+
+Below is a list of the main reasons why Agile Scrum would be the best methodology to be used for this project:
+•	Agile Scrum allows Tech-X’s development team to gain definition and clearer understanding of the project’s requirements due to constant communication with the product owner, Craig’s Bank. Because of definite and clear requirements, the product will be of much better quality.
+•	Scrum allows more collaboration, communication and creativity without too much constriction. This insures quality work. 
+•	Scrum inspires job satisfaction as there isn’t too much dictatorship. 
+•	Scrum shows the product owner faster results as a deliverable is produced after each sprint. 
+•	Scrum allows the product owner and users to provide feedback which insures a top quality product.
+•	 The backlog of work helps Tech-X realize the work schedule and required work (The Braintrust Consulting Group, 2014).
+•	As this is a project that involves sensitive data (such as customer information and banking information), Scrum allows the testing necessary to insure top security of the system. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Week 2 – Requirements
+TBD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Week 2 - Design
+TBD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Week 3 - Development and Testing
+TBD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Week 4 - Project Schedule
+TBD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Week 5 - Risk Analysis 
+TBD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References
+ 
+
+American Banker. (n.d.). 5 Innovative Ideas for Mobile Banking Log-Ins. Retrieved February 19, 2016, from http://www.americanbanker.com/gallery/five-innovative-ideas-for-mobile-banking-logins-1064224-1.html 
+ 
+The Braintrust Consulting Group. (2014).Features of Scrum. (2014). Retrieved February 19, 2016 from http://braintrustgroup.com/scrum/features-of-scrum/ 
+
+Scrum Methodology. (2014). Retrieved from Scrum Methodology website: http://scrum methodology.com/
+
+Angeles, S. (2013, August 26). What Is Agile Scrum Methodology? Retrieved from Business News Daily: http://www.businessnewsdaily.com/4987-what-is-agile-scrum-methodology.html
+
+
+ 
+
